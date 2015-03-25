@@ -1,0 +1,29 @@
+unleashed.name=Arduino Unleashed Uno
+
+unleashed.vid.0=0x2341
+unleashed.pid.0=0x0043
+unleashed.vid.1=0x2341
+unleashed.pid.1=0x0001
+
+unleashed.upload.tool=arduino:avrdude
+#unleashed.upload.params.quiet=-q -q
+#unleashed.upload.params.verbose=-v -v
+unleashed.upload.protocol=arduino
+unleashed.upload.maximum_size=32256
+unleashed.upload.maximum_data_size=2048
+unleashed.upload.speed=115200
+
+unleashed.bootloader.tool=arduino:avrdude
+unleashed.bootloader.low_fuses=0xFF
+unleashed.bootloader.high_fuses=0xDE
+unleashed.bootloader.extended_fuses=0x05
+unleashed.bootloader.unlock_bits=0x3F
+unleashed.bootloader.lock_bits=0x0F
+unleashed.bootloader.file=optiboot/optiboot_atmega328.hex
+
+unleashed.build.mcu=atmega328p
+unleashed.build.f_cpu=16000000L
+unleashed.build.board=AVR_UNO_UNLEASHED
+unleashed.build.core=arduino:arduino
+unleashed.build.variant=unleashed
+#unleashed.build.extra_flags=-ggdb -save-temps
