@@ -1,4 +1,3 @@
-build.path={sketchbook.path}
 compiler.c.extra_flags=-ggdb -save-temps
 compiler.cpp.extra_flags=-ggdb -save-temps
 compiler.c.elf.extra_flags=
